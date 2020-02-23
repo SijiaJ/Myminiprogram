@@ -1,0 +1,11 @@
+/* pages/text/text.wxss */
+.pressed{
+  background-color: red;
+  color: white
+}
+button{margin: 10px}
+
+.box{
+  font-size: 32px;
+  color: yellow
+}

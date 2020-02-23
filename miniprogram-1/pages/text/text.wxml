@@ -1,0 +1,48 @@
+<!--pages/text/text.wxml-->
+<!--1.text基本使用-->
+<text>hello world\n</text>
+<text>小程序\n</text>
+<!--2.默认文本不能选中-->
+<text selectable='{{true}}'>jisijia\n</text>
+<!--3.space空格大小-->
+<text space="nbsp">ji  sijia\n</text>
+<text space="emsp">ji  sijia\n</text>
+<text space="nbsp">ji  sijia\n</text>
+<text >jisijia\n</text>
+
+
+<!--button-->
+<button hover-class="pressed">按钮</button>
+<!--image-->
+<image src="/assets/image/1.jpg"/>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"/>
+<button bindtap="choose">选中相册</button>
+<image src="{{imagePath}}"/>
+
+<!--lazy load图片懒加载-->
+<view>=============</view>
+<image wx:for='{{1}}'   src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+bindload="handleImageLoad"
+lazy-load></image>
+
+<!--show-menu-by-longpress长按识别图片小程序-->
+<image show-menu-by-longpress
+src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"/>
+
+<!--input 绑定事件-->
+<view class="weui-cells__title">实时获取输入值：{{inputValue}}</view>
+<input bindinput="handInput"
+       bindfocus="handleFocus"
+       bindblur="handleBlur"
+        />
+
+<!--设置样式的三种方式-->
+<!--1.行内内联样式-->
+<view style="color:red;font-size:32px">hahahha</view>
+<!--2.页内样式-->
+<view class="box">hahaa</view>
+<!--3.全局样式 app.wxss-->
+<view class="container">hahahah</view>
+
+<jsj/>
+ 
