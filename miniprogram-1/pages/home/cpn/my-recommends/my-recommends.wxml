@@ -1,4 +1,4 @@
-<!--pages/category/category.wxml-->
+<!--pages/home/cpn/my-recommends.wxml-->
 <view class="recommend">
   <block wx:for="{{recommends}}" wx:key="{{index}}">
     <view class="recommend-item">

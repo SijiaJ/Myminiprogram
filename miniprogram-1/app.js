@@ -23,8 +23,8 @@ App({
    */
   onShow: function (options) {
     //1.判断小程序进入场景
-    console.log(options)
-    console.log(options.scene)
+    // console.log(options)
+    // console.log(options.scene)
   },
 
   /**
@@ -39,11 +39,7 @@ App({
    */
   onError: function (msg) {
     console.log("小程序发生错误")
-  },
-
-
-  globalData:{
-    name:'张三',
-    age:19
   }
+
+
 })

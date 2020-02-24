@@ -1,4 +1,4 @@
-/* pages/category/category.wxss */
+/* pages/home/cpn/my-recommends.wxss */
 .recommend{
   display: flex;
   margin-top: 30rpx;

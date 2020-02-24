@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {  "my-tab-control":"../../component/my-tab-control/my-tab-control",
+"my-recommends":"./cpn/my-recommends/my-recommends"
+  },
   "navigationBarTitleText": "Shopping"
 }

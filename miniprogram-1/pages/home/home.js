@@ -1,6 +1,3 @@
-const app = getApp()
-const name = app.globalData.name
-console.log(name)
 import {getData} from '../../service/home.js'
 // 注册一个页面 pages/home/home.js
 Page({
@@ -22,6 +19,10 @@ Page({
       })
       // console.log(banners)
     })
+  },
+
+  handleTabClick(event){
+    console.log(event)
   },
 
   
